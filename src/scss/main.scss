@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+#app{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+form{
+    border: 1px solid #212121;
+    padding: 20px;
+    min-height: 593px;
+    min-width: 320px;
+}
+.form h2{
+    color: #a3ecf3;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.form input{
+    color:#212121;
+}
+
+.form label{
+    color: #ff9300;
+}
+input[type=text]:not(.browser-default){
+    border-bottom: 1px solid #ff9300;
+}
+
+.btn{
+    background: #0EBED5;
+}
+
+select{
+    display: initial;
+}
+
+button{
+    margin-top: 20px;
+}
